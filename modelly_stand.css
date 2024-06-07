@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.table {
+    border: 1px solid #704368;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+   
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #12012b;
+}
+
+table, th, td {
+    border: 1px solid #050202;
+}
+
+th, td {
+    padding: 8px;
+    background-color: #AC75C2;
+    color: #12012b;
+}
+
+th {
+    background-color: #361A5C;
+    color: aliceblue;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(Fonts/Poppins-Light.ttf);
+}
+
+.fonte_nova{
+font-family: Poppins;
+}
