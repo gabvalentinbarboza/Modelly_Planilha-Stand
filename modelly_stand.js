@@ -19,43 +19,34 @@ document.addEventListener('DOMContentLoaded', () => {
     const tablesData = [
         {
             title: 'Modelly - Desenvolvedores', //MEMBROS MODELLY
-            headers: ['Equipe', 'Funções', 'Contrato', 'Salário'], // Adicione mais headers conforme necessário
+            headers: ['Equipe', 'Funções'], // Adicione mais headers conforme necessário
             rows: [
-                ['Pamela Miranda(Pamy)', 'Product Owner - UI Designer/Desenvolvedora Front End','PJ','R$4.254'],
-                ['Gabriel Santos(Gabs)', 'Scrum Master - Desenvolvedor Full-Stack','PJ','R$4.254'],
-                ['Gabriel Valentin(Redd)', 'Financeiro - UX Designer/ Desenvolvedor Full-Stack','PJ','R$4.254'],
-                ['Matheus Santos(Matt)', 'Desenvolvedor Back End','PJ','R$4.254'],
-                ['Giovanna Tavares(Gio)', 'UI Designer/Desenvolvedora de Banco de Dados','PJ','R$4.254'],
-                ['Ben-Hur(Ben)', 'Desenvolvedor Back End','PJ','R$4.254'],
-                ['João Lucas(Guiado por Deus)', 'Desenvolvedor Back End','PJ','R$4.254'],
-                ['Jhonnatan Gomes(Jhow)', 'Desenvolvedor Front End','PJ','R$4.254']
+                ['Pamela Miranda(Pamy)', 'Product Owner - UI Designer/Desenvolvedora Front End'],
+                ['Gabriel Santos(Gabs)', 'Scrum Master - Desenvolvedor '],
+                ['Gabriel Valentin(Redd)', 'Financeiro - UX Designer/ Desenvolvedor Full-Stack'],
+                ['Matheus Santos(Matt)', 'Desenvolvedor Full-Stack'],
+                ['Giovanna Tavares(Gio)', 'UI Designer/Desenvolvedora de Banco de Dados e Back End'],
+                ['João Lucas(Guiado por Deus)', 'Desenvolvedor Front End'],
+                ['Jhonnatan Gomes(Jhow)', 'Desenvolvedor Front End']
             ]
         },
 
         {
-               title: 'Stand Modelly :)',
+               title: 'Checklist Stand - Modelly :)',
                headers: ['Material', 'Quantidade', 'Pagante', 'Fornecedor','Preço','Total'], // Adicione mais headers conforme necessário
                rows: [
-                   ['Cartão de visita', '450','0','0','R$0','R$0'],
-                   ['Camisetas Personalizadas', '8','0','0','R$0','R$0'],
-                   ['Cavalete(Naiping Banner com informações da Modelly)', '1','0','0','R$0','R$0'],
-                   ['Fita Crepe', '1','(Equipe)','(Equipe)','R$0','R$0'],
-                   ['Tesoura', '1','(Equipe)','(Equipe)','R$0','R$0'],
-                   ['Escada de madeira', '1','','(Equipe)','R$0','R$0'],
+                   ['Cartão de visita', '1000','0','0','R$55,00','R$55,00'],
+                   ['Camisetas Personalizadas', '7','0','0','R$30,00','R$210'],
+                   ['Cavalete(Naiping Banner com informações da Modelly)', '1','0','0','-','-'],
+                   ['Fita Crepe', '1','(Equipe)','(Equipe)','-','-'],
+                   ['Tesoura', '1','(Equipe)','(Equipe)','-','-'],
+                   ['Escada de madeira', '1','','(Equipe)','-','-'],
+                   ['Broches Personalizados', '150','','(Equipe)','R$0','R$0'],
                   
                    // Adicione mais linhas conforme necessário
                ]
            }     ,
-           {
-                  title: 'Lembrancinhas',
-                  headers: ['Opções', 'Materiais Necessários'], // Adicione mais headers conforme necessário
-                  rows: [
-                      ['Chaveiro', 'Argolas c corrente/peça'],
-                      ['Broche', 'broche personalizado'],
-                      ['Ecobag', 'Personalizada']
-                      // Adicione mais linhas conforme necessário
-                  ]
-              }
+         
                
     ];
 
