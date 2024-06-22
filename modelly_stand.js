@@ -32,20 +32,22 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         {
-               title: 'Checklist Stand - Modelly :)',
-               headers: ['Material', 'Quantidade', 'Pagante', 'Fornecedor','Preço','Total'], // Adicione mais headers conforme necessário
-               rows: [
-                   ['Cartão de visita', '1000','0','0','R$55,00','R$55,00'],
-                   ['Camisetas Personalizadas', '7','0','0','R$30,00','R$210'],
-                   ['Cavalete(Naiping Banner com informações da Modelly)', '1','0','0','-','-'],
-                   ['Fita Crepe', '1','(Equipe)','(Equipe)','-','-'],
-                   ['Tesoura', '1','(Equipe)','(Equipe)','-','-'],
-                   ['Escada de madeira', '1','','(Equipe)','-','-'],
-                   ['Broches Personalizados', '150','','(Equipe)','R$0','R$0'],
-                  
-                   // Adicione mais linhas conforme necessário
-               ]
-           }     ,
+            title: 'Checklist Stand - Modelly :)',
+            headers: ['Material', 'Quantidade', 'Pagante', 'Fornecedor', 'Preço', 'Total'], // Adicione mais headers conforme necessário
+            rows: [
+                ['Cartão de visita', '1000', 'Gabriel Valentin', 'g7Grafica', 'R$55,00', 'R$55,00'],
+                ['Camisetas Personalizadas', '7', 'Dividido entre a equipe', '0', 'R$30,00', 'R$210,00'],
+                ['Cavalete(Naiping Banner com informações da Modelly)', '1', '0', '0', '-', '-'],
+                ['Fita Crepe', '1', '(Equipe)', '(Equipe)', '-', '-'],
+                ['Tesoura', '1', '(Equipe)', '(Equipe)', '-', '-'],
+                ['Escada de madeira', '1', '(Equipe)', '(Equipe)', '-', '-'],
+                ['Broches Personalizados', '150', '', 'Shopee', 'R$95,00', 'R$95,00'],
+                ['Enfeites(Bonecos)', '10', 'Giovanna', 'Giovanna', '-', '-'],
+                ['', '', '', '', 'Total:', 'R$360,00']
+                
+                // Adicione mais linhas conforme necessário
+            ]
+        } ,
          
                
     ];
